@@ -30,7 +30,7 @@
 | Ping Pub     | Ping Pub                                  | <https://ping.pub/okp4%20testnet?testnet>  | ✅      |
 | L0vd         | Ping Pub                                  | <http://explorers.l0vd.com/okp4-testnet>   | ✅      |
 | Nodeist      | Ping Pub                                  | <https://exp.nodeist.net/t-okp4/staking>   | ✅      |
-| PPNV Service | Ping Pub                                  | <https://explorer.ppnv.space/okp4>         | ✅      |
+| PPNV Service | Ping Pub                                  | <https://explorer.ppnv.space/okp4>         | ❌      |
 | ATOMScan     | ATOMScan                                  | <https://atomscan.com/testnet/okp4testnet> | ✅      |
 
 ## 🚰 Faucets
@@ -76,8 +76,8 @@
 
 | Thanks To | gRPC URL                                    | Status |
 |-----------|---------------------------------------------|--------|
-| Nodeist   | https://grpc-okp4.nodeist.net               | ✅      |
-| MELLIFERA | https://okp4-testnet.mellifera.network:9090 | ✅      |
+| Nodeist   | https://grpc-okp4.nodeist.net               | ❌      |
+| MELLIFERA | https://okp4-testnet.mellifera.network:9090 | ❌      |
 
 ## ⚙️ Addrbook
 
@@ -97,7 +97,7 @@
 | Cros Nest | `Nemeton-1` chain | <https://chain-monitor.cros-nest.com/d/Testnet/testnets?orgId=1&var-chain_id=okp4-nemeton-1> | ✅      |
 | OKP4      | OKP4 github       | <https://dashboard.monitoring.okp4.space/public-dashboards/6e71b5e261c042209ef0793db964b9bb> | ✅      |
 | MELLIFERA | `Nemeton-1` chain | <https://okp4-testnet.mellifera.network/monitor>                                             | ✅      |
-| Nodeist   | Nodeist Dashboard | <https://okp4-monitor.nodeist.net/d/cosmos_validator/okp4?orgId=1&refresh=1m>                | ✅      |
+| Nodeist   | Nodeist Dashboard | <https://okp4-monitor.nodeist.net/d/cosmos_validator/okp4?orgId=1&refresh=1m>                | ❌      |
 
 ## You want to get involved? 😍
 
