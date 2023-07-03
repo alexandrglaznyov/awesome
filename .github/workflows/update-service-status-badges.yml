@@ -1,0 +1,38 @@
+name: Check Links
+on:
+  push:
+    branches:
+      - main 
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+      
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Run check README
+        id: check
+        run: | 
+         URL=$(node ./index.js)
+         echo "IS_UPDATED=$URL" >> $GITHUB_ENV
+
+      - name: debug 
+        run: echo "${{ env.IS_UPDATED }}"
+
+      - name: Commit changes
+        if: env.IS_UPDATED == 'updated'
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update status badge"
