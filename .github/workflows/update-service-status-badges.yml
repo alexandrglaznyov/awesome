@@ -2,7 +2,9 @@ name: Check Links
 on:
   push:
     branches:
-      - main 
+      - main
+    paths:
+      - '**/README.md'
   workflow_dispatch:
     inputs:
       custom-param:
@@ -14,9 +16,6 @@ jobs:
   run-script:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -24,22 +23,16 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18'
-      
+          node-version: '14'
+
       - name: Install dependencies
         run: npm install
         working-directory: .github/scripts
       
       - name: Run script
-        run: |
-          URL=$(node .github/scripts/index.js)
-          echo "IS_UPDATED=$URL" >> $GITHUB_ENV
-
-      - name: debug 
-        run: echo "${{ env.IS_UPDATED }}"
+        run: node .github/scripts/index.js
 
       - name: Commit changes
-        if: env.IS_UPDATED == 'updated'
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "docs: update url service status badges"
