@@ -25,7 +25,7 @@ jobs:
       
       - name: Run script
         run: |
-          URL=$(node ./index.js)
+          URL=$(node .github/scripts/index.js)
           echo "IS_UPDATED=$URL" >> $GITHUB_ENV
 
       - name: debug 
