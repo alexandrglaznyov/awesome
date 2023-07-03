@@ -1,4 +1,4 @@
-# Awesome OKP41
+# Awesome OKP4
 
 > Awesome OKP4 is a curated list of awesome resources, documents, and tools for [OKP4](https://okp4.network).
 
@@ -23,15 +23,15 @@
 
 ## 🔭 Block Explorers
 
-| Thanks To    | Explorer                                  | URL                                        | Status |
-|--------------|-------------------------------------------|--------------------------------------------|--------|
-| OKP4         | Ping Pub                                  | <https://explore.okp4.network>             | ✅      |
-| BccNodes     | Ping Pub                                  | <https://explorer.bccnodes.com/okp4>       | ✅      |
-| Ping Pub     | Ping Pub                                  | <https://ping.pub/okp4%20testnet?testnet>  | ✅      |
-| L0vd         | Ping Pub                                  | <http://explorers.l0vd.com/okp4-testnet>   | ✅      |
-| Nodeist      | Ping Pub                                  | <https://exp.nodeist.net/t-okp4/staking>   | ✅      |
-| PPNV Service | Ping Pub                                  | <https://explorer.ppnv.space/okp4>         | ✅      |
-| ATOMScan     | ATOMScan                                  | <https://atomscan.com/testnet/okp4testnet> | ✅      |
+| Thanks To    | Explorer | URL                                        | Status |
+|--------------|----------|--------------------------------------------|--------|
+| OKP4         | Ping Pub | <https://explore.okp4.network>             | ✅      |
+| BccNodes     | Ping Pub | <https://explorer.bccnodes.com/okp4>       | ✅      |
+| Ping Pub     | Ping Pub | <https://ping.pub/okp4%20testnet?testnet>  | ✅      |
+| L0vd         | Ping Pub | <https://explorers.l0vd.com/okp4-testnet>  | ✅      |
+| Nodeist      | Ping Pub | <https://exp.nodeist.net/t-okp4/staking>   | ✅      |
+| PPNV Service | Ping Pub | <https://explorer.ppnv.space/okp4>         | ✅      |
+| ATOMScan     | ATOMScan | <https://atomscan.com/testnet/okp4testnet> | ✅      |
 
 ## 🚰 Faucets
 
