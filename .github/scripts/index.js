@@ -1,7 +1,7 @@
 const markdownLinkCheck = require('markdown-link-check');
 const fs = require('fs');
 
-const readmeContent = fs.readFileSync('awesome/README.md', 'utf8');
+const readmeContent = fs.readFileSync('./README.md', 'utf8');
 const replacementSymbol = '❌';
 const replacementSymbolOk = '✅';
 const lines = readmeContent.split('\n');
@@ -57,7 +57,7 @@ async function main(){
     if (arrAlive.length || arrDead.length) {
         const updatedLines = await updateLinks(arrDead, arrAlive);
         const updatedTable = updatedLines.join('\n');
-        fs.writeFileSync('awesome/README.md', updatedTable, 'utf8');
+        fs.writeFileSync('./README.md', updatedTable, 'utf8');
         process.stdout.write('updated\n');
     }
 }
