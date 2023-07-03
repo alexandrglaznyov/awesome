@@ -23,11 +23,10 @@ jobs:
         run: npm install
         working-directory: .github/scripts
       
-      - name: Run check README
-        id: check
-        run: | 
-         URL=$(node .github/scripts/index.js)
-         echo "IS_UPDATED=$URL" >> $GITHUB_ENV
+      - name: Run script
+        run: |
+          URL=$(node $GITHUB_WORKSPACE/.github/scripts/index.js)
+          echo "IS_UPDATED=$URL" >> $GITHUB_ENV
 
       - name: debug 
         run: echo "${{ env.IS_UPDATED }}"
