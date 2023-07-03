@@ -35,4 +35,4 @@ jobs:
         if: env.IS_UPDATED == 'updated'
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Update status badge"
+          commit_message: "docs: update url service status badges"
