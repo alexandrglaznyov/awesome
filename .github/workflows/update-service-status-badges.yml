@@ -3,6 +3,13 @@ on:
   push:
     branches:
       - main 
+  workflow_dispatch:
+    inputs:
+      custom-param:
+        description: 'Custom parameter'
+        required: false
+        default: 'default value'
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
