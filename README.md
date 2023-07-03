@@ -55,7 +55,10 @@
 | Nodes & Validator Guide                | <https://github.com/cryptobtcbuyer/Testnet_guides/blob/main/OKP4/installation.md>    | [cryptobtcbuyer](https://github.com/cryptobtcbuyer)                                      |
 | Monitoring and Alerting for Validators | <https://github.com/cryptobtcbuyer/Testnet_guides/blob/main/OKP4/monitoring.md>      | [cryptobtcbuyer](https://github.com/cryptobtcbuyer)                                      |
 
-## ⚙️ RPC
+
+## ⚙️ Services
+
+## RPC
 
 | Thanks To  |                   RPC URL                    | Status |
 |:----------:|:--------------------------------------------:|:------:|
@@ -64,7 +67,7 @@
 |  Nodeist   |         https://rpc-okp4.nodeist.net         |   ✅    |
 
 
-## ⚙️ API
+## API
 
 | Thanks To  |                   API URL                   | Status |
 |:----------:|:-------------------------------------------:|:------:|
@@ -72,14 +75,14 @@
 | MELLIFERA  | https://okp4-testnet.mellifera.network:1317 |   ✅    |
 |  Nodeist   |        https://api-okp4.nodeist.net         |   ✅    |
 
-## ⚙️ gRPC
+## gRPC
 
-| Thanks To | gRPC URL                                    | Status |
-|-----------|---------------------------------------------|--------|
-| Nodeist   | https://grpc-okp4.nodeist.net               | ✅      |
-| MELLIFERA | https://okp4-testnet.mellifera.network:9090 | ✅      |
+| Thanks To | gRPC URL                                    |
+|-----------|---------------------------------------------|
+| Nodeist   | https://grpc-okp4.nodeist.net               |
+| MELLIFERA | https://okp4-testnet.mellifera.network:9090 |
 
-## ⚙️ Addrbook
+## Addrbook
 
 | Thanks To | Addrbook URL                                                  | Status |
 |-----------|---------------------------------------------------------------|--------|
