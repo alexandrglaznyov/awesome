@@ -21,12 +21,12 @@ jobs:
       
       - name: Install dependencies
         run: npm install
-        working-directory: awesome/.github/scripts
+        working-directory: .github/scripts
       
       - name: Run check README
         id: check
         run: | 
-         URL=$(node ./index.js)
+         URL=$(node .github/scripts/index.js)
          echo "IS_UPDATED=$URL" >> $GITHUB_ENV
 
       - name: debug 
