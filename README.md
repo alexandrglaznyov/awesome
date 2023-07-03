@@ -1,4 +1,4 @@
-# Awesome OKP4
+# Awesome OKP41
 
 > Awesome OKP4 is a curated list of awesome resources, documents, and tools for [OKP4](https://okp4.network).
 
