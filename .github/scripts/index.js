@@ -1,7 +1,10 @@
+const path = require('path');
 const markdownLinkCheck = require('markdown-link-check');
 const fs = require('fs');
 
-const readmeContent = fs.readFileSync('../../README.md', 'utf8');
+const readmePath = path.join(process.env.GITHUB_WORKSPACE, 'README.md');
+const readmeContent = fs.readFileSync(readmePath, 'utf8');
+
 const replacementSymbol = '❌';
 const replacementSymbolOk = '✅';
 const lines = readmeContent.split('\n');
