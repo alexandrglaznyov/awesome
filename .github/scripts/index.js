@@ -51,6 +51,7 @@ async function main(){
     const updatedLines = await updateLinks(arrDead, arrAlive, lines);
     const updatedTable = updatedLines.join('\n');
     fs.writeFileSync('./README.md', updatedTable, 'utf8');
+    process.stdout.write('updated\n');
 }
 
 main();
