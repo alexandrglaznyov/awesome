@@ -4,20 +4,12 @@ on:
     branches:
       - main
     paths:
-      - '**/README.md'
+        - '**/README.md'
   workflow_dispatch:
-    inputs:
-      custom-param:
-        description: 'Custom parameter'
-        required: false
-        default: 'default value'
-
+  
 jobs:
   run-script:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout code

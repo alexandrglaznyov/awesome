@@ -12,26 +12,34 @@
 
 ### 💫 Official OKP4 links
 
-- [Linktree](https://linktr.ee/okp4)
-- [Website](https://okp4.network/)
-- [LinkedIn](https://www.linkedin.com/company/okp4-open-knowledge-platform-for)
-- [Twitter](https://twitter.com/OKP4_Protocol)
-- [GitHub](https://github.com/okp4)
-- [Telegram](https://t.me/okp4network)
-- [Medium](https://blog.okp4.network/)
-- [Discord](https://discord.com/invite/okp4)
+- <img
+src="assets/linktree.webp" style="width:15px;height:15px;"> [Linktree](https://linktr.ee/okp4)
+- <img
+ src="assets/website.webp" style="width:15px;height:15px;"> [Website](https://okp4.network/)
+- <img
+ src="assets/linkedin.webp" style="width:15px;height:15px;"> [LinkedIn](https://www.linkedin.com/company/okp4-open-knowledge-platform-for)
+- <img
+ src="assets/twitter.webp" style="width:15px;height:15px;"> [Twitter](https://twitter.com/OKP4_Protocol)
+- <img
+ src="assets/github.webp" style="width:15px;height:15px;"> [GitHub](https://github.com/okp4)
+- <img
+ src="assets/telegram.webp" style="width:15px;height:15px;"> [Telegram](https://t.me/okp4network)
+- <img
+ src="assets/medium.webp" style="width:15px;height:15px;"> [Medium](https://blog.okp4.network/)
+- <img
+ src="assets/discord.webp" style="width:15px;height:15px;"> [Discord](https://discord.com/invite/okp4)
 
 ## 🔭 Block Explorers
 
-| Thanks To    | Explorer | URL                                        | Status |
-|--------------|----------|--------------------------------------------|--------|
-| OKP4         | Ping Pub | <https://explore.okp4.network>             | ✅      |
-| BccNodes     | Ping Pub | <https://explorer.bccnodes.com/okp4>       | ✅      |
-| Ping Pub     | Ping Pub | <https://ping.pub/okp4%20testnet?testnet>  | ✅      |
-| L0vd         | Ping Pub | <https://explorers.l0vd.com/okp4-testnet>  | ✅      |
-| Nodeist      | Ping Pub | <https://exp.nodeist.net/t-okp4/staking>   | ✅      |
-| PPNV Service | Ping Pub | <https://explorer.ppnv.space/okp4>         | ✅      |
-| ATOMScan     | ATOMScan | <https://atomscan.com/testnet/okp4testnet> | ✅      |
+| Thanks To                                | Explorer | URL                                        | Status |
+|------------------------------------------|----------|--------------------------------------------|--------|
+| [OKP4](https://github.com/okp4)          | Ping Pub | <https://explore.okp4.network>             | ✅      |
+| [BccNodes](https://github.com/BccNodes/) | Ping Pub | <https://explorer.bccnodes.com/okp4>       | ✅      |
+| [Ping Pub](https://github.com/ping-pub/) | Ping Pub | <https://ping.pub/okp4%20testnet?testnet>  | ✅      |
+| [L0vd](https://github.com/L0vd)          | Ping Pub | <https://explorers.l0vd.com/okp4-testnet>  | ✅      |
+| [Nodeist](https://github.com/Nodeist)    | Ping Pub | <https://exp.nodeist.net/t-okp4/staking>   | ✅      |
+| [PPNV Service](https://ppnv.space)       | Ping Pub | <https://explorer.ppnv.space/okp4>         | ✅      |
+| [ATOMScan](https://atomscan.com/)        | ATOMScan | <https://atomscan.com/testnet/okp4testnet> | ✅      |
 
 ## 🚰 Faucets
 
@@ -39,68 +47,92 @@
 
 ## 📚 Documentation / Guides
 
-| Type                                   | URL                                                                                  | Thanks To                                                                                |
-|----------------------------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| Whitepaper                             | <https://docs.okp4.network/whitepaper/abstract>                                      | [OKP4](https://github.com/okp4)                                                          |
-| Nodes & Validator Guide                | <https://docs.okp4.network/nodes/introduction>                                       | [OKP4](https://github.com/okp4)                                                          |
-| Nodes & Validator Guide                | <https://nodes.guru/okp4/setup-guide/en>                                             | [Nodes Guru](https://nodes.guru/)                                                        |
-| Nodes & Validator Guide                | <https://nodeist.net/t/Okp4/Setup/>                                                  | [Nodeist](https://nodeist.net/)                                                          |
-| Nodes & Validator Guide                | <https://nodeservice.nodersteam.com/title/testnets/okp4>                             | [[NODERS]TEAM](https://noders-stake.com/)                                                |
-| Dev guidelines 👩‍💻                     | <https://work.okp4.com/dev/dev-home>                                                 | [OKP4](https://github.com/okp4)                                                          |
-| OKP4 Snapshot guide                    | <https://github.com/Kolot86/My-guides/blob/main/OKP4_Sanpshot_Guide/OKP4.md>         | [Kolot](https://github.com/Kolot86)                                                      |
-| Basic tools & Validator Guide          | <https://github.com/Cumulo-pro/OKP4#readme>                                          | [Cumulo](https://github.com/Cumulo-pro)                                                  |
-| FAQ OKP4 Validator                     | <https://medium.com/cumulo-pro/faq-okp4-validator-19e81661b101>                      | [Cumulo](https://github.com/Cumulo-pro)                                                  |
-| OKP4 Community of Validators Resources | <https://medium.com/cumulo-pro/okp4-community-of-validators-resources-f3e5b2b4d2f7>  | [Cumulo](https://github.com/Cumulo-pro)                                                  |
-| TMKMS Guide                            | <https://craving-for-knowledge.gitbook.io/craving_for_knowledge/testnets/okp4/tmkms> | [Craving_for_Knowledge](https://craving-for-knowledge.gitbook.io/craving_for_knowledge/) |
-| Nodes & Validator Guide                | <https://github.com/cryptobtcbuyer/Testnet_guides/blob/main/OKP4/installation.md>    | [cryptobtcbuyer](https://github.com/cryptobtcbuyer)                                      |
-| Monitoring and Alerting for Validators | <https://github.com/cryptobtcbuyer/Testnet_guides/blob/main/OKP4/monitoring.md>      | [cryptobtcbuyer](https://github.com/cryptobtcbuyer)                                      |
+Вот обновленная таблица с добавленным столбцом "Status":
 
+| Type                                   | URL                                                                                  | Status | Thanks To                                                                                |
+|----------------------------------------|--------------------------------------------------------------------------------------|--------|------------------------------------------------------------------------------------------|
+| Whitepaper                             | <https://docs.okp4.network/whitepaper/abstract>                                      | ✅      | [OKP4](https://github.com/okp4)                                                          |
+| Nodes & Validator Guide                | <https://docs.okp4.network/nodes/introduction>                                       | ✅      | [OKP4](https://github.com/okp4)                                                          |
+| Nodes & Validator Guide                | <https://nodes.guru/okp4/setup-guide/en>                                             | ✅      | [Nodes Guru](https://nodes.guru/)                                                        |
+| Nodes & Validator Guide                | <https://nodeist.net/t/Okp4/Setup/>                                                  | ✅      | [Nodeist](https://nodeist.net/)                                                          |
+| Nodes & Validator Guide                | <https://nodeservice.nodersteam.com/title/testnets/okp4>                             | ✅      | [[NODERS]TEAM](https://noders-stake.com/)                                                |
+| Dev guidelines 👩‍💻                     | <https://work.okp4.com/dev/dev-home>                                                 | ✅      | [OKP4](https://github.com/okp4)                                                          |
+| OKP4 Snapshot guide                    | <https://github.com/Kolot86/My-guides/blob/main/OKP4_Sanpshot_Guide/OKP4.md>         | ✅      | [Kolot](https://github.com/Kolot86)                                                      |
+| Basic tools & Validator Guide          | <https://github.com/Cumulo-pro/OKP4#readme>                                          | ✅      | [Cumulo](https://github.com/Cumulo-pro)                                                  |
+| FAQ OKP4 Validator                     | <https://medium.com/cumulo-pro/faq-okp4-validator-19e81661b101>                      | ✅      | [Cumulo](https://github.com/Cumulo-pro)                                                  |
+| OKP4 Community of Validators Resources | <https://medium.com/cumulo-pro/okp4-community-of-validators-resources-f3e5b2b4d2f7>  | ✅      | [Cumulo](https://github.com/Cumulo-pro)                                                  |
+| TMKMS Guide                            | <https://craving-for-knowledge.gitbook.io/craving_for_knowledge/testnets/okp4/tmkms> | ✅      | [Craving_for_Knowledge](https://craving-for-knowledge.gitbook.io/craving_for_knowledge/) |
+| Nodes & Validator Guide                | <https://github.com/cryptobtcbuyer/Testnet_guides/blob/main/OKP4/installation.md>    | ✅      | [cryptobtcbuyer](https://github.com/cryptobtcbuyer)                                      |
+| Monitoring and Alerting for Validators | <https://github.com/cryptobtcbuyer/Testnet_guides/blob/main/OKP4/monitoring.md>      | ✅      | [cryptobtcbuyer](https://github.com/cryptobtcbuyer)                                      |
 
 ## ⚙️ Services
 
 ## RPC
 
-| Thanks To  |                   RPC URL                    | Status |
-|:----------:|:--------------------------------------------:|:------:|
-| Chainlayer |     https://okptest-rpc.quickapi.com:443     |   ✅    |
-| MELLIFERA  | https://okp4-testnet.mellifera.network:26657 |   ✅    |
-|  Nodeist   |         https://rpc-okp4.nodeist.net         |   ✅    |
+|               Thanks To                |                     URL                      | Status |
+|:--------------------------------------:|:--------------------------------------------:|:------:|
+|  [Chainlayer](https://chainlayer.io)   |     https://okptest-rpc.quickapi.com:443     |   ✅    |
+| [MELLIFERA](https://mellifera.network) | https://okp4-testnet.mellifera.network:26657 |   ✅    |
+|     [Nodeist](https://nodeist.net)     |         https://rpc-okp4.nodeist.net         |   ✅    |
 
 
 ## API
 
-| Thanks To  |                   API URL                   | Status |
-|:----------:|:-------------------------------------------:|:------:|
-| Chainlayer |    https://okptest-lcd.quickapi.com:443     |   ✅    |
-| MELLIFERA  | https://okp4-testnet.mellifera.network:1317 |   ✅    |
-|  Nodeist   |        https://api-okp4.nodeist.net         |   ✅    |
+|               Thanks To                |                     URL                     | Status |
+|:--------------------------------------:|:-------------------------------------------:|:------:|
+|  [Chainlayer](https://chainlayer.io)   |    https://okptest-lcd.quickapi.com:443     |   ✅    |
+| [MELLIFERA](https://mellifera.network) | https://okp4-testnet.mellifera.network:1317 |   ✅    |
+|     [Nodeist](https://nodeist.net)     |        https://api-okp4.nodeist.net         |   ✅    |
 
 ## gRPC
 
-| Thanks To | gRPC URL                                    |
-|-----------|---------------------------------------------|
-| Nodeist   | https://grpc-okp4.nodeist.net               |
-| MELLIFERA | https://okp4-testnet.mellifera.network:9090 |
+| Thanks To                              | URL                                         |
+|----------------------------------------|---------------------------------------------|
+| [Nodeist](https://nodeist.net)         | https://grpc-okp4.nodeist.net               |
+| [MELLIFERA](https://mellifera.network) | https://okp4-testnet.mellifera.network:9090 |
 
 ## Addrbook
 
-| Thanks To | Addrbook URL                                                  | Status |
-|-----------|---------------------------------------------------------------|--------|
-| Nodeist   | https://ss.nodeist.net/t/okp4/addrbook.json                   | ✅      |
-| MELLIFERA | https://okp4-testnet.mellifera.network/snapshot/addrbook.json | ✅      |
+| Thanks To                              | URL                                                           | Status |
+|----------------------------------------|---------------------------------------------------------------|--------|
+| [Nodeist](https://nodeist.net)         | https://ss.nodeist.net/t/okp4/addrbook.json                   | ✅      |
+| [MELLIFERA](https://mellifera.network) | https://okp4-testnet.mellifera.network/snapshot/addrbook.json | ✅      |
+| [Chainlayer](https://chainlayer.io)    | https://dl2.quicksync.io/json/addrbook.okp4testnet.json       | ✅      |
 
+## Snapshot
+
+| Thanks To                              | URL                                                                  | Status |
+|----------------------------------------|----------------------------------------------------------------------|--------|
+| [MELLIFERA](https://mellifera.network) | https://okp4-testnet.mellifera.network/snapshot/                     | ✅      |
+| [Nodeist](https://nodeist.net)         | https://ss.nodeist.net/t/okp4/snapshot_latest.tar.lz4                | ✅      |
+| [Chainlayer](https://quickapi.com)     | https://dl2.quicksync.io/okp4-nemeton-1-pruned.20230703.0740.tar.lz4 | ✅      |
+
+## State / Quick Sync
+
+| Thanks To                              | URL                                         | Status |
+|----------------------------------------|---------------------------------------------|--------|
+| [Chainlayer](https://quicksync.io)     | https://quicksync.io/networks/okp4.html     | ✅      |
+| [MELLIFERA](https://mellifera.network) | https://mellifera.network/manuals/okp4.html | ✅      |
+| [Nodeist](https://nodeist.net)         | https://nodeist.net/Okp4/                   | ✅      |
+
+## Live Peer
+
+| Thanks To                              | Live Peer                                                                                                                  |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| [MELLIFERA](https://mellifera.network) | 866b505e44a2077def00ede26999551bedb5bddd@okp4-testnet.mellifera.network:29959                                              |
+| [Nodeist](https://nodeist.net)         | d5519e378247dfb61dfe90652d1fe3e2b3005a5b@65.109.68.190:13656,8028015d1c6828a0b734f3b108f0853b0e19305e@157.90.176.184:26656 |
 
 
 ## 📊 Dashboards
 
-| Thanks To | Type              | URL                                                                                          | Status |
-|-----------|-------------------|----------------------------------------------------------------------------------------------|--------|
-| OKP4      | `Nemeton` chain   | <https://dashboard.monitoring.okp4.space/public-dashboards/544a782e7fd9488c9ccfe68046c02cf8> | ✅      |
-| L0vd      | `Nemeton` chain   | <http://95.216.2.219:3000/d/okp4/okp4-monitoring-by-l0vd?orgId=1&refresh=30s>                | ✅      |
-| Cros Nest | `Nemeton-1` chain | <https://chain-monitor.cros-nest.com/d/Testnet/testnets?orgId=1&var-chain_id=okp4-nemeton-1> | ✅      |
-| OKP4      | OKP4 github       | <https://dashboard.monitoring.okp4.space/public-dashboards/6e71b5e261c042209ef0793db964b9bb> | ✅      |
-| MELLIFERA | `Nemeton-1` chain | <https://okp4-testnet.mellifera.network/monitor>                                             | ✅      |
-| Nodeist   | Nodeist Dashboard | <https://okp4-monitor.nodeist.net/d/cosmos_validator/okp4?orgId=1&refresh=1m>                | ❌      |
+| Thanks To                                                 | Type              | URL                                                                                          | Status |
+|-----------------------------------------------------------|-------------------|----------------------------------------------------------------------------------------------|--------|
+| [OKP4](https://github.com/okp4)                           | `Nemeton` chain   | <https://dashboard.monitoring.okp4.space/public-dashboards/544a782e7fd9488c9ccfe68046c02cf8> | ✅      |
+| [L0vd](https://github.com/L0vd/OKP4/tree/main/Monitoring) | `Nemeton` chain   | <http://95.216.2.219:3000/d/okp4/okp4-monitoring-by-l0vd?orgId=1&refresh=30s>                | ✅      |
+| [Cros Nest](https://cros-nest.com)                        | `Nemeton-1` chain | <https://chain-monitor.cros-nest.com/d/Testnet/testnets?orgId=1&var-chain_id=okp4-nemeton-1> | ✅      |
+| [OKP4](https://github.com/okp4)                           | OKP4 github       | <https://dashboard.monitoring.okp4.space/public-dashboards/6e71b5e261c042209ef0793db964b9bb> | ✅      |
+| [MELLIFERA](https://mellifera.network)                    | `Nemeton-1` chain | <https://okp4-testnet.mellifera.network/monitor>                                             | ✅      |
+| [Nodeist](https://github.com/Nodeist)                     | Nodeist Dashboard | <https://okp4-monitor.nodeist.net/d/cosmos_validator/okp4?orgId=1&refresh=1m>                | ✅      |
 
 ## You want to get involved? 😍
 
