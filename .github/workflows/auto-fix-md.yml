@@ -2,6 +2,7 @@ name: Auto fix Markdown
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "0 0 * * *"
 
@@ -15,12 +16,8 @@ jobs:
           token: ${{ secrets.OKP4_TOKEN }}
 
       - name: Show token
-        uses: actions/github-script@v4
-        with:
-          script: |
-            const token = process.env.OKP4_TOKEN;
-            console.log(`Token: ${token}`);
-
+        run: echo ${{ secrets.OKP4_TOKEN }}
+  
       - name: Lint markdown files
         uses: avto-dev/markdown-lint@v1.5.0
         continue-on-error: true
