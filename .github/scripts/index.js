@@ -53,4 +53,4 @@ async function main(){
     fs.writeFileSync('./README.md', updatedTable, 'utf8');
 }
 
-main();
+main(); 
