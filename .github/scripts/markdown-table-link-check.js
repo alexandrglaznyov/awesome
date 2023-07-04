@@ -2,7 +2,7 @@ const fs = require('fs');
 const linkCheck = require('link-check');
 const LinkCheckResult = require('link-check').LinkCheckResult;
 const readmeContent = fs.readFileSync('./README.md', 'utf8');
-const { parseMarkdownTables } = require('./helper/index.js');
+const { parseMarkdownTables } = require('./index.js');
 const opt = require('./.mlc_config.json');
 const { resolve } = require('dns');
 
