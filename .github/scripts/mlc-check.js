@@ -1,20 +1,25 @@
 const markdownLinkCheck = require('markdown-link-check');
 const fs = require('fs');
 
-const readmeContent = fs.readFileSync('./README.md', 'utf8');
-const replacementSymbol = '❌';
+const readmeContent = fs.readFileSync('../../README.md', 'utf8');
+const { parseMarkdownTables } = require('./helper/index.js');
+
+const replacementSymbolFaile = '❌';
 const replacementSymbolOk = '✅';
+const parsedTable = parseMarkdownTables(readmeContent);
+const allLinksFromUrlsClm = parsedTable.map(table => table.url).flat().filter(Boolean);
 
 async function checkLinksInReadme() {
     return new Promise((resolve, reject) => {
         markdownLinkCheck(readmeContent, (err, results) => {
             if (err) {
-                reject(err);
-                return;
+                console.warn(err)
+                return resolve({ arrDead: [], arrAlive: [] })
             }
             const arrDead = [];
             const arrAlive = [];
             results.forEach((result) => {
+                if(!allLinksFromUrlsClm.includes(result.link)) return;
                 if(result.status === 'dead') {
                     arrDead.push(result.link);
                 }
@@ -31,12 +36,12 @@ async function updateLinks(arrDead, arrAlive, lines) {
     const updatedLines = lines.map((line) => {
         arrDead.forEach((link) => {
             if (line.includes(link)) {
-                line = line.replace(replacementSymbolOk, replacementSymbol);
+                line = line.replace(replacementSymbolOk, replacementSymbolFaile);
             }
         });
         arrAlive.forEach((link) => {
             if (line.includes(link)) {
-                line = line.replace(replacementSymbol, replacementSymbolOk);
+                line = line.replace(replacementSymbolFaile, replacementSymbolOk);
             }
         });
         return line;
@@ -44,13 +49,11 @@ async function updateLinks(arrDead, arrAlive, lines) {
     return updatedLines;
 }
 
-async function main(){
+(async function(){
     const { arrAlive, arrDead } = await checkLinksInReadme();
     const lines = readmeContent.split('\n');
 
     const updatedLines = await updateLinks(arrDead, arrAlive, lines);
     const updatedTable = updatedLines.join('\n');
-    fs.writeFileSync('./README.md', updatedTable, 'utf8');
-}
-
-main(); 
+    fs.writeFileSync('../../README.md', updatedTable, 'utf8');
+})()

@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/alexandrglaznyov/okp4-README#readme",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "fs": "^0.0.1-security",
+    "markdown-it": "^13.0.1",
     "markdown-link-check": "^3.11.2"
   }
 }
