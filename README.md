@@ -30,7 +30,7 @@
 | Ping Pub     | Ping Pub | <https://ping.pub/okp4%20testnet?testnet>  | ✅      |
 | L0vd         | Ping Pub | <https://explorers.l0vd.com/okp4-testnet>  | ✅      |
 | Nodeist      | Ping Pub | <https://exp.nodeist.net/t-okp4/staking>   | ✅      |
-| PPNV Service | Ping Pub | <https://explorer.ppnv.space/okp4>         | ❌      |
+| PPNV Service | Ping Pub | <https://explorer.ppnv.space/okp4>         | ✅      |
 | ATOMScan     | ATOMScan | <https://atomscan.com/testnet/okp4testnet> | ✅      |
 
 ## 🚰 Faucets
