@@ -19,7 +19,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "fs": "^0.0.1-security",
-    "markdown-it": "^13.0.1",
-    "markdown-link-check": "^3.11.2"
+    "link-check": "^5.2.0",
+    "markdown-it": "^13.0.1"
   }
 }
