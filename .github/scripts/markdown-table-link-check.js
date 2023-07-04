@@ -1,7 +1,7 @@
 const fs = require('fs');
 const linkCheck = require('link-check');
 const LinkCheckResult = require('link-check').LinkCheckResult;
-const readmeContent = fs.readFileSync('../../README.md', 'utf8');
+const readmeContent = fs.readFileSync('./README.md', 'utf8');
 const { parseMarkdownTables } = require('./helper/index.js');
 const opt = require('../../.mlc_config.json');
 const { resolve } = require('dns');
@@ -66,5 +66,5 @@ async function updateLinks(arrDead, arrAlive, lines) {
 
     const updatedLines = await updateLinks(arrDead, arrAlive, lines);
     const updatedTable = updatedLines.join('\n');
-    fs.writeFileSync('../../README.md', updatedTable, 'utf8');
+    fs.writeFileSync('./README.md', updatedTable, 'utf8');
 })()
