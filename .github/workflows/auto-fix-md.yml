@@ -10,14 +10,14 @@ jobs:
   auto-fix-markdown:
     runs-on: ubuntu-22.04
     steps:
-      - name: Show token
-        run: echo ${{ secrets.OKP4_TOKEN }}
-        
       - name: Check out repository
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.OKP4_TOKEN }}
-  
+
+      - name: Verify token value
+        run: echo ${{ secrets.OKP4_TOKEN }}
+        
       - name: Lint markdown files
         uses: avto-dev/markdown-lint@v1.5.0
         continue-on-error: true
