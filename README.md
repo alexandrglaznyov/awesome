@@ -71,49 +71,48 @@ src="assets/linktree.webp" style="width:15px;height:15px;"> [Linktree](https://l
 
 |               Thanks To                |                     URL                      | Status |
 |:--------------------------------------:|:--------------------------------------------:|:------:|
-|  [Chainlayer](https://chainlayer.io)   |     https://okptest-rpc.quickapi.com:443     |   ✅    |
-| [MELLIFERA](https://mellifera.network) | https://okp4-testnet.mellifera.network:26657 |   ✅    |
-|     [Nodeist](https://nodeist.net)     |         https://rpc-okp4.nodeist.net         |   ✅    |
-
+|  [Chainlayer](https://chainlayer.io)   |     <https://okptest-rpc.quickapi.com:443>     |   ✅    |
+| [MELLIFERA](https://mellifera.network) | <https://okp4-testnet.mellifera.network:26657> |   ✅    |
+|     [Nodeist](https://nodeist.net)     |         <https://rpc-okp4.nodeist.net>         |   ✅    |
 
 ## API
 
 |               Thanks To                |                     URL                     | Status |
 |:--------------------------------------:|:-------------------------------------------:|:------:|
-|  [Chainlayer](https://chainlayer.io)   |    https://okptest-lcd.quickapi.com:443     |   ✅    |
-| [MELLIFERA](https://mellifera.network) | https://okp4-testnet.mellifera.network:1317 |   ✅    |
-|     [Nodeist](https://nodeist.net)     |        https://api-okp4.nodeist.net         |   ✅    |
+|  [Chainlayer](https://chainlayer.io)   |    <https://okptest-lcd.quickapi.com:443>     |   ✅    |
+| [MELLIFERA](https://mellifera.network) | <https://okp4-testnet.mellifera.network:1317> |   ✅    |
+|     [Nodeist](https://nodeist.net)     |        <https://api-okp4.nodeist.net>         |   ✅    |
 
 ## gRPC
 
 | Thanks To                              | URL                                         |
 |----------------------------------------|---------------------------------------------|
-| [Nodeist](https://nodeist.net)         | https://grpc-okp4.nodeist.net               |
-| [MELLIFERA](https://mellifera.network) | https://okp4-testnet.mellifera.network:9090 |
+| [Nodeist](https://nodeist.net)         | <https://grpc-okp4.nodeist.net>               |
+| [MELLIFERA](https://mellifera.network) | <https://okp4-testnet.mellifera.network:9090> |
 
 ## Addrbook
 
 | Thanks To                              | URL                                                           | Status |
 |----------------------------------------|---------------------------------------------------------------|--------|
-| [Nodeist](https://nodeist.net)         | https://ss.nodeist.net/t/okp4/addrbook.json                   | ✅      |
-| [MELLIFERA](https://mellifera.network) | https://okp4-testnet.mellifera.network/snapshot/addrbook.json | ✅      |
-| [Chainlayer](https://chainlayer.io)    | https://dl2.quicksync.io/json/addrbook.okp4testnet.json       | ✅      |
+| [Nodeist](https://nodeist.net)         | <https://ss.nodeist.net/t/okp4/addrbook.json>                   | ✅      |
+| [MELLIFERA](https://mellifera.network) | <https://okp4-testnet.mellifera.network/snapshot/addrbook.json> | ✅      |
+| [Chainlayer](https://chainlayer.io)    | <https://dl2.quicksync.io/json/addrbook.okp4testnet.json>       | ✅      |
 
 ## Snapshot
 
 | Thanks To                              | URL                                                                  | Status |
 |----------------------------------------|----------------------------------------------------------------------|--------|
-| [MELLIFERA](https://mellifera.network) | https://okp4-testnet.mellifera.network/snapshot/                     | ✅      |
-| [Nodeist](https://nodeist.net)         | https://ss.nodeist.net/t/okp4/snapshot_latest.tar.lz4                | ✅      |
-| [Chainlayer](https://quickapi.com)     | https://dl2.quicksync.io/okp4-nemeton-1-pruned.20230703.0740.tar.lz4 | ✅      |
+| [MELLIFERA](https://mellifera.network) | <https://okp4-testnet.mellifera.network/snapshot/>                     | ✅      |
+| [Nodeist](https://nodeist.net)         | <https://ss.nodeist.net/t/okp4/snapshot_latest.tar.lz4>                | ✅      |
+| [Chainlayer](https://quickapi.com)     | <https://dl2.quicksync.io/okp4-nemeton-1-pruned.20230703.0740.tar.lz4> | ✅      |
 
 ## State / Quick Sync
 
 | Thanks To                              | URL                                         | Status |
 |----------------------------------------|---------------------------------------------|--------|
-| [Chainlayer](https://quicksync.io)     | https://quicksync.io/networks/okp4.html     | ✅      |
-| [MELLIFERA](https://mellifera.network) | https://mellifera.network/manuals/okp4.html | ✅      |
-| [Nodeist](https://nodeist.net)         | https://nodeist.net/Okp4/                   | ✅      |
+| [Chainlayer](https://quicksync.io)     | <https://quicksync.io/networks/okp4.html>     | ✅      |
+| [MELLIFERA](https://mellifera.network) | <https://mellifera.network/manuals/okp4.html> | ✅      |
+| [Nodeist](https://nodeist.net)         | <https://nodeist.net/Okp4/>                   | ✅      |
 
 ## Live Peer
 
@@ -121,7 +120,6 @@ src="assets/linktree.webp" style="width:15px;height:15px;"> [Linktree](https://l
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [MELLIFERA](https://mellifera.network) | 866b505e44a2077def00ede26999551bedb5bddd@okp4-testnet.mellifera.network:29959                                              |
 | [Nodeist](https://nodeist.net)         | d5519e378247dfb61dfe90652d1fe3e2b3005a5b@65.109.68.190:13656,8028015d1c6828a0b734f3b108f0853b0e19305e@157.90.176.184:26656 |
-
 
 ## 📊 Dashboards
 
