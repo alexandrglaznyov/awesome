@@ -104,7 +104,7 @@ src="assets/linktree.webp" style="width:15px;height:15px;"> [Linktree](https://l
 |----------------------------------------|----------------------------------------------------------------------|--------|
 | [MELLIFERA](https://mellifera.network) | <https://okp4-testnet.mellifera.network/snapshot/>                     | ✅      |
 | [Nodeist](https://nodeist.net)         | <https://ss.nodeist.net/t/okp4/snapshot_latest.tar.lz4>                | ✅      |
-| [Chainlayer](https://quickapi.com)     | <https://dl2.quicksync.io/okp4-nemeton-1-pruned.20230703.0740.tar.lz4> | ✅      |
+| [Chainlayer](https://quickapi.com)     | <https://dl2.quicksync.io/okp4-nemeton-1-pruned.20230703.0740.tar.lz4> | ❌      |
 
 ## State / Quick Sync
 
